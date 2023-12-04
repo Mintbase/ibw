@@ -108,11 +108,7 @@ header {
   background: linear-gradient(to right, var(--gradOne), var(--gradTwo));
 }
 
-.ibw-gradient {
-  background: linear-gradient(to right, #fdf35d, #f1a053, #dc63b2, #71caee);
-}
-
-.header-border-gradient {
+.border-gradient {
   border-image: linear-gradient(to right, #fdf35d, #f1a053, #dc63b2, #71caee);
   border-image-slice: 1;
 }
