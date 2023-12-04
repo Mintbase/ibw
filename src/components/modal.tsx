@@ -52,21 +52,21 @@ const Modal = ({ children }: { children?: React.ReactNode }) => {
             <div className="flex gap-3 items-center">
               <InlineSVG
                 src="/images/photo_camera-2.svg"
-                className="fill-current text-icon"
+                className="fill-current"
               />
               <p className="text-sm">{texts.about.first}</p>
             </div>
             <div className="flex gap-3 items-center">
               <InlineSVG
                 src="/images/file_arrow_up.svg"
-                className="fill-current text-icon"
+                className="fill-current"
               />
               <p className="text-sm">{texts.about.sec}</p>
             </div>
             <div className="flex gap-3 items-center ml-1">
               <InlineSVG
                 src="/images/trophy.svg"
-                className="fill-current text-icon"
+                className="fill-current"
               />
               <p className="text-sm">{texts.about.third}</p>
             </div>
@@ -78,7 +78,7 @@ const Modal = ({ children }: { children?: React.ReactNode }) => {
             }`}
           >
             <button
-              className="gradientButton text-primaryBtnText rounded px-14 py-3 text-sm font-light"
+              className="buttons-gradient text-black rounded px-14 py-3 text-sm font-light"
               onClick={!isConnected ? () => connect() : () => closeModal()}
             >
               OK
