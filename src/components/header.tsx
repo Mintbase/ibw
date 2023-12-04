@@ -55,7 +55,7 @@ const Header = () => {
                 />
                 <InlineSVG
                   src="/images/small_ibw_logo.svg"
-                  className="md:hidden"
+                  className="md:hidden w-24"
                 />
               </button>
             </div>
@@ -84,7 +84,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed left-0 top-0 flex w-full justify-center py-2 bg-primary text-headerText header-border-gradient border-b">
+      <header className="fixed left-0 top-0 flex w-full justify-center md:py-2 bg-primary text-headerText header-border-gradient border-b">
         {renderHeaderButtons()}
       </header>
     </>
