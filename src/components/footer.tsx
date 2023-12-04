@@ -12,10 +12,7 @@ export const FooterButton = ({ onClick }: { onClick: any }) => (
     className="rounded-full h-24 w-24 bg-primary absolute -top-12 flex items-center justify-center"
     onClick={onClick}
   >
-    <div
-      className="rounded-full h-20 w-20 gradientButton
-  flex items-center justify-center"
-    >
+    <div className="rounded-full h-20 w-20 buttons-gradient flex items-center justify-center">
       <InlineSVG
         src="/images/photo_camera.svg"
         className="fill-current text-camera h-12"
