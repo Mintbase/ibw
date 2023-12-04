@@ -47,7 +47,7 @@ const Header = () => {
       case "/":
         return (
           <div className="flex w-full justify-between px-4 lg:px-12 items-center">
-            <div>
+            <div className="w-[20%] md:w-full">
               <button className="font-bold text-xl" onClick={() => push("/")}>
                 <InlineSVG
                   src="/images/ibw_logo.svg"
