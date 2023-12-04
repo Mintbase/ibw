@@ -60,9 +60,7 @@ const Header = () => {
               </button>
             </div>
             <div className="flex gap-4">
-              {!isConnected ? (
-                <button onClick={() => openModal("default")}>About</button>
-              ) : null}
+              <button onClick={() => openModal("default")}>About</button>
 
               {isConnected ? (
                 <button onClick={handleSignout}> Logout</button>
