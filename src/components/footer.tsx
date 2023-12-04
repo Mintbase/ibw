@@ -34,7 +34,7 @@ const Footer = () => {
     switch (pathname) {
       case "/":
         return !isClosed ? (
-          <footer className="fixed bottom-0 left-0 flex w-full items-end justify-center bg-primary h-16">
+          <footer className="fixed bottom-0 left-0 flex w-full items-end justify-center bg-primary h-16 border-gradient border-t">
             <FooterButton
               onClick={
                 isConnected ? () => push("/camera") : () => openModal("default")
@@ -44,7 +44,7 @@ const Footer = () => {
         ) : null;
       case "/leaderboard":
         return !isClosed ? (
-          <footer className="fixed bottom-0 left-0 flex w-full items-end justify-center bg-primary h-16">
+          <footer className="fixed bottom-0 left-0 flex w-full items-end justify-center bg-primary h-16 border-gradient border-t">
             <FooterButton
               onClick={
                 isConnected ? () => push("/camera") : () => openModal("default")

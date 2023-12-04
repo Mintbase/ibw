@@ -82,7 +82,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed left-0 top-0 flex w-full justify-center h-16 bg-primary text-headerText header-border-gradient border-b">
+      <header className="fixed left-0 top-0 flex w-full justify-center h-16 bg-primary text-headerText border-gradient border-b">
         {renderHeaderButtons()}
       </header>
     </>
