@@ -32,7 +32,7 @@ export const useLeaderBoardData = () => {
     prizes: {
       one: process.env.NEXT_PUBLIC_TEXT_PRIZE_1ST_VAL || MINSTA_TEXTS.prizes.one,
       two: process.env.NEXT_PUBLIC_TEXT_PRIZE_2ND_VAL || MINSTA_TEXTS.prizes.two,
-      three:process.env.NEXT_PUBLIC_TEXT_PRIZE_3RD_VAL || MINSTA_TEXTS.prizes.three,
+      three:process.env.NEXT_PUBLIC_TEXT_PRIZE_3RD_VAL,
       title_one: process.env.NEXT_PUBLIC_TEXT_PRIZE_1ST_TITLE || MINSTA_TEXTS.prizes.title_one,
       title_two: process.env.NEXT_PUBLIC_TEXT_PRIZE_2ND_TITLE || MINSTA_TEXTS.prizes.title_two,
       title_three:  process.env.NEXT_PUBLIC_TEXT_PRIZE_3RD_TITLE,
